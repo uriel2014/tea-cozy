@@ -53,7 +53,48 @@ nav span{
 
 /* CONTENT STYLING */
 
+.main-image{
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+/* use margin with 0 and auto to perfectly center an image.
+Next make it a flex container and align the flex items vertically centered.
+Next make the flex items align center horizontally by justify-content*/
+.main-image .img-content {
+  background-color: black;
+  opacity:0.9;
+  width:1200px;
+}
+/* In this section we added some styling to the content inside the image*/
 
+/* Section of Images*/
+
+.tea {
+  width:1000px;
+  display:flex;
+}
+.gallery{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  align-content:center;
+  width:1000px;
+}
+/* Here we make the galley class a flex continer. Need to play with the
+Flexbox properties*/ 
+.gallery .picture img{
+  width:300px;
+  height:200px;
+}
+.gallery .picture h4{
+  margin-top:10px;
+}
+/*We added the requested properties to img and h4 who are nested in the classes
+gallery and picture. Class picture are the flex items of class gallery. */
 
 
 
