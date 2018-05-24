@@ -1,12 +1,54 @@
 /* Breakdown the website */
-/* Universal Styling */
+/* UNIVERSAL STYLING */
 
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color:seashell;
+  background-color: black;
+  opacity:0.9;
+  text-align:center;
+}
 
-
+a{
+  text-decoration: underline;
+  color: seashell;
+}
+/* Add color and underline to each link*/
 
 /* HEADER STYLING */
 
+header{
+  position: fixed;
+  z-index:1;
+  height:69px;
+  width:100%;
+  border-bottom: 1px solid seashell;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Header will be have fixed position.
+Header will be a flex container with flex items
+vertically aligned to the center. Flex items will
+also be aligned horizontally with only space between.  */
 
+.logo img{
+  height:50px;
+  padding-left:10px;
+}
+/*Align the image accordingly*/
+
+header nav{
+  padding-right:40px;
+}
+/*We add some padding space for the Nav Section*/
+nav span{
+  display:inline-block;
+  padding: 10px 20px;
+}
+/*Each span will be displayed as an inline-blocck
+ and will have padding accordingly Top/Bottom:10px and Left/Rignt:20px*/
 
 
 /* CONTENT STYLING */
